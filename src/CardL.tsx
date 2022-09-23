@@ -10,7 +10,7 @@ interface Props {
 export default function CardL(props: Props) {
   return (
     <>
-      <Container>props.title</Container>
+      <Container>{props.title}</Container>
     </>
   );
 }
