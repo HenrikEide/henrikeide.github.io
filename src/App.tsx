@@ -13,6 +13,7 @@ export default function App() {
   function classNames(...classes: string[]) {
     return classes.filter(Boolean).join(" ");
   }
+
   return (
     <>
       <Disclosure as="nav" className="bg-gray-800">
@@ -92,15 +93,43 @@ export default function App() {
             </h1>
           </div>
         </header>
-        <main>
-          <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-            {/* Replace with your content */}
-            <div className="px-4 py-6 sm:px-0">
-              <CardL title={"Oi"} content={"Hello"} image={"helo"} />
+        <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
+          {/* Replace with your content */}
+          <div className="px-4 py-6 sm:px-0">
+            <div className="container m-auto px-6 text-gray-600">
+              <div className="space-y-6 lg:gap-12">
+                <div className="lg:w-5/12">
+                  <img
+                    src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+                    alt="Something fancy"
+                    loading="lazy"
+                    width=""
+                    height=""
+                  />
+                </div>
+                <div className="lg:w-6/12">
+                  <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
+                    NWHT out by passionate developers howO
+                  </h2>
+                  <p className="mt-6 text-gray-600">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Eum omnis voluptatem accusantium nemo perspiciatis delectus
+                    atque autem! Voluptatum tenetur beatae unde aperiam,
+                    repellat expedita consequatur! Officiis id consequatur atque
+                    doloremque!
+                  </p>
+                  <br />
+                  <p className="mt-4 text-gray-600">
+                    Nobis minus voluptatibus pariatur dignissimos libero quaerat
+                    iure expedita at? Asperiores nemo possimus nesciunt dicta
+                    veniam aspernatur quam mollitia.
+                  </p>
+                </div>
+              </div>
             </div>
-            {/* /End replace */}
           </div>
-        </main>
+          {/* /End replace */}
+        </div>
       </div>
     </>
   );
