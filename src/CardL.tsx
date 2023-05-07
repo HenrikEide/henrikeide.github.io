@@ -23,7 +23,7 @@ export default function CardL(props: Props) {
         </div>
         <div className="lg:w-6/12 sm:py-4 sm:pl-2">
           <h2 className="text-2xl text-gray-900 font-bold md:text-3xl">
-            Sommerjobb hos Finn
+            Making nice paragraphs of placeholder text
           </h2>
           <p className="mt-6 text-gray-600">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum omnis

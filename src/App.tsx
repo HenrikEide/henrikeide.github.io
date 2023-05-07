@@ -5,9 +5,13 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 export default function App() {
   const navigation = [
-    { name: "Home", href: "#", current: true },
-    { name: "About", href: "#", current: false },
-    { name: "Projects", href: "#", current: false },
+    { name: "Home", href: "", current: true },
+    { name: "Lesesalen", href: "lesesalen", current: false },
+    {
+      name: "Github",
+      href: "https://github.com/HenrikEide/henrikeide.github.io",
+      current: false,
+    },
   ];
 
   function classNames(...classes: string[]) {
@@ -97,7 +101,7 @@ export default function App() {
           {/* Replace with your content */}
           <div className="px-4 py-6 sm:px-0">
             <header className="bg-white shadow-sm">
-              <div className="mx-auto max-w-7xl py-4 px-2 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-7xl py-4 px-2 mb-6">
                 <h1 className="text-2xl font-bold tracking-tight text-gray-900">
                   Some things I've done that I deemed relevant to my career
                 </h1>
