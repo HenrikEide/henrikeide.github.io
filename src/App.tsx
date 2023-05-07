@@ -107,7 +107,7 @@ export default function App() {
                 </h1>
               </div>
             </header>
-            <CardL title={"Sommerjobb"} content={"Ay yo"} image={""} />
+            <CardL title={""} content={""} image={""} />
           </div>
           {/* /End replace */}
         </div>

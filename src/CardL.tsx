@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
 interface Props {
   title: String;
@@ -35,7 +34,7 @@ export default function CardL(props: Props) {
           <p className="mt-4 text-gray-600">
             Nobis minus voluptatibus pariatur dignissimos libero quaerat iure
             expedita at? Asperiores nemo possimus nesciunt dicta veniam
-            aspernatur quam mollitia.
+            aspernatur quam mollitia. {content} {title} {image}
           </p>
         </div>
       </div>
