@@ -1,3 +1,3 @@
-## [In Development]
+## My homepage
 
-Github: https://github.com/HenrikEide
+- In development
