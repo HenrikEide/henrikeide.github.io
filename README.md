@@ -2,5 +2,14 @@
 
 ## My main page
 
-- In development
-- Build failing on Github Actions (no idea why) so deployed manually
+> In development
+
+"Where does he dare to go, that fellow? That is what you must ask yourself. What do you really want?" - F. Nietzsche
+
+Build and deploy workflow no longer fails :tada:
+
+## How to run locally
+
+- Clone repo
+- Run `npm install`
+- Run `npm run dev`
