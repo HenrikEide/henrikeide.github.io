@@ -103,7 +103,7 @@ export default function App() {
             <header className="bg-white shadow-sm">
               <div className="mx-auto max-w-7xl py-4 px-2 mb-6">
                 <h1 className="text-2xl font-bold tracking-tight text-gray-900">
-                  Some things I've done that I deemed relevant to my career
+                  Some things I've deemed relevant for this page
                 </h1>
               </div>
             </header>
