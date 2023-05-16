@@ -9,7 +9,7 @@ export default function App() {
     { name: "Lesesalen", href: "lesesalen", current: false },
     {
       name: "Github",
-      href: "https://github.com/HenrikEide/henrikeide.github.io",
+      href: "https://github.com/HenrikEide",
       current: false,
     },
   ];
