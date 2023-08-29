@@ -22,6 +22,9 @@ jobs:
       - name: Add .nojekyll file
         run: touch ./build/.nojekyll
 
+      - name: Add CNAME file
+        run: echo "eiden.no" > ./build/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
