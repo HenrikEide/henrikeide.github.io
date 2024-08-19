@@ -7,6 +7,7 @@ export default function App() {
   const navigation = [
     { name: "Home", href: "", current: true },
     { name: "Lesesalen", href: "lesesalen", current: false },
+    { name: "Breakfast", href: "brekkie", current: false },
     { name: "MusicQuiz", href: "musicquiz", current: false },
     {
       name: "Github",
