@@ -8,7 +8,8 @@ export default function App() {
     { name: "Home", href: "", current: true },
     { name: "Lesesalen", href: "lesesalen", current: false },
     { name: "Breakfast", href: "brekkie", current: false },
-    { name: "MusicQuiz", href: "musicquiz", current: false },
+    { name: "MicrloBib", href: "micrlobib", current: false },
+    { name: "Complonents", href: "complonents", current: false },
     {
       name: "Github",
       href: "https://github.com/HenrikEide",
@@ -110,6 +111,22 @@ export default function App() {
               </div>
             </header>
             <CardL title={""} content={""} image={""} />
+          </div>
+          <div className="my-80"></div>
+          <div className="px-4 py-6 sm:px-0 flex flex-col space-y-8 text-xs">
+            <h2 className="text-xl font-bold tracking-tight text-gray-900 mb-2">
+              Legacy content
+            </h2>
+            <p className="text-gray-700">
+              <a href="/musicquiz" className="font-bold border-2 p-1 mr-4 bg-slate-200 
+              hover:bg-slate-300">Musicquiz</a>
+              I am going to be ultra copyright destroyed
+            </p>
+            <p className="text-gray-700">
+              <a href="/supermariorl" className="font-bold border-2 p-1 mr-4 bg-slate-200 
+              hover:bg-slate-300">Super Mario Irl</a>
+              My first site, kept as a reminder that we all start somewhere
+            </p>
           </div>
           {/* /End replace */}
         </div>
