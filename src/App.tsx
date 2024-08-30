@@ -101,12 +101,6 @@ export default function App() {
           </div>
         </header>
         <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-          <div className="min-h-full">
-            <header className="bg-white shadow-sm">
-            </header>
-            <CardL title={""} content={""} image={""} />
-          </div>
-          <div className="my-80"></div>
           <div className="px-4 py-6 sm:px-0 flex flex-col space-y-8 text-xs">
             <h2 className="text-xl font-bold tracking-tight text-gray-900 mb-2">
               Legacy content

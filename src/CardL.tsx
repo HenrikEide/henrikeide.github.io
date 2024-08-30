@@ -1,13 +1,6 @@
 import React from "react";
 
-interface Props {
-  title: String;
-  content: String;
-  image: String;
-}
-
-export default function CardL(props: Props) {
-  const { title, content, image } = props;
+export default function CardL() {
   return (
     <div className="py-16 bg-white">
       <div className="container m-auto flex px-6 text-gray-600 md:px-12 xl:px-6 flex-wrap sm:flex-nowrap">
