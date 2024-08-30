@@ -101,14 +101,8 @@ export default function App() {
           </div>
         </header>
         <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-          {/* Replace with your content */}
-          <div className="px-4 py-6 sm:px-0">
+          <div className="min-h-full">
             <header className="bg-white shadow-sm">
-              <div className="mx-auto max-w-7xl py-4 px-2 mb-6">
-                <h1 className="text-2xl font-bold tracking-tight text-gray-900">
-                  Some things I've deemed relevant for this page
-                </h1>
-              </div>
             </header>
             <CardL title={""} content={""} image={""} />
           </div>
