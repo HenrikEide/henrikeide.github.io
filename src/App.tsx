@@ -100,24 +100,35 @@ export default function App() {
             </h1>
           </div>
         </header>
-        <div className="py-6">
-            <div className="mx-auto max-w-7xl py-4 mb-6">
-              <CardL/>
-            </div>
+        <div className="py-2">
+          <div className="mx-auto max-w-7xl py-4 mb-6">
+            <CardL />
+          </div>
         </div>
+
         <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
           <div className="px-4 py-6 sm:px-0 flex flex-col space-y-8 text-xs">
             <h2 className="text-xl font-bold tracking-tight text-gray-900 mb-2">
               Legacy content
             </h2>
             <p className="text-gray-700">
-              <a href="/musicquiz" className="font-bold border-2 p-1 mr-4 bg-slate-200 
-              hover:bg-slate-300">Musicquiz</a>
+              <a
+                href="/musicquiz"
+                className="font-bold border-2 p-1 mr-4 bg-slate-200 
+              hover:bg-slate-300"
+              >
+                Musicquiz
+              </a>
               I am going to be ultra copyright destroyed
             </p>
             <p className="text-gray-700">
-              <a href="/supermariorl" className="font-bold border-2 p-1 mr-4 bg-slate-200 
-              hover:bg-slate-300">Super Mario Irl</a>
+              <a
+                href="/supermariorl"
+                className="font-bold border-2 p-1 mr-4 bg-slate-200 
+              hover:bg-slate-300"
+              >
+                Super Mario Irl
+              </a>
               My first site, kept as a reminder that we all start somewhere
             </p>
           </div>
